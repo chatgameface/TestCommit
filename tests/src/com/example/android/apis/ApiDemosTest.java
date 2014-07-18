@@ -28,7 +28,7 @@ public class ApiDemosTest extends ActivityInstrumentationTestCase2<ApiDemos> {
      * Create an {@link ActivityInstrumentationTestCase2} that tests the {@link ApiDemos} activity.
      */
     public ApiDemosTest() {
-        super(ApiDemos.class);
+        super(null, ApiDemos.class);
     }
 
     /**
