@@ -52,7 +52,7 @@ public class Focus2ActivityTest extends ActivityInstrumentationTestCase2<Focus2>
      * Creates an {@link ActivityInstrumentationTestCase2} that tests the {@link Focus2} activity.
      */
     public Focus2ActivityTest() {
-        super(Focus2.class);
+        super(null, Focus2.class);
     }
 
     @Override
